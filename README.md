@@ -26,6 +26,11 @@
 - [References](#references)
 
 
+
+# Introduction
+
+This documentation serves as a guide for understanding how and why to use Terragrunt in your infrastructure-as-code workflows. It includes setup instructions, best practices, and usage patterns that can help teams scale their Terraform usage more effectively.
+
 # Terragrunt
 
 Terragrunt is a thin wrapper for Terraform that provides extra tools for keeping your Terraform configurations DRY (Don't Repeat Yourself), managing remote state, and working with multiple Terraform modules across environments and regions.
@@ -39,6 +44,8 @@ Terragrunt helps solve common challenges with Terraform at scale by:
 - Managing module dependencies.
 - Structuring environments and infrastructure layering.
 - Simplifying workflows across multiple modules.
+
+
 
 
 
@@ -137,6 +144,17 @@ terragrunt run-all apply
 | Terraform Knowledge                   | Familiarity with Terraform modules, variables, and workflow concepts       |
 
 
+# Terragrunt vs. Terraform: A Comparison
+
+| Feature                | Terraform                          | Terragrunt                                 |
+|------------------------|------------------------------------|--------------------------------------------|
+| **State Management**   | Manual state file management       | Simplified with structured directories     |
+| **Code Repetition**    | High                               | Reduced with centralized configurations    |
+| **Variable Handling**  | Repeated definitions               | Efficient inheritance and management       |
+| **Resource Management**| Linear and individual              | Holistic and batch processing              |
+| **Performance**        | Standard                           | Optimized with modular structure           |
+
+
 # Best Practices
 
 | Best Practice                                      | Description                                                                 |
@@ -152,8 +170,20 @@ terragrunt run-all apply
 | Document Workflows                                | Help teams understand usage patterns and directory layout                  |
 
 # Conclusion
-Terragrunt enhances Terraform's capabilities by simplifying configuration management, enforcing structure, and reducing repetition. When used correctly, it enables teams to scale their infrastructure provisioning workflows efficiently across multiple environments and regions with consistency and control.
+As infrastructure scales, maintaining Terraform becomes increasingly challenging. Terragrunt provides a structured, DRY, and scalable approach to managing Terraform configurations across environments and teams.
 
+By adopting Terragrunt, we benefit from:
+
+- Centralized configuration management
+
+- Easier onboarding for new team members
+
+- More secure and reliable state handling
+
+- Reduced code duplication
+
+- Better support for environment isolation and modular reuse
+  
 #  Contact Information
 
 
