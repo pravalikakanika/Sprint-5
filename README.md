@@ -1,5 +1,5 @@
 
-![image](https://github.com/user-attachments/assets/24b98570-4f5e-4be2-8269-e79daddec481)
+![image](https://github.com/user-attachments/assets/78fcf178-08ea-4cf8-8d09-a74b47f406e9)
 
 
 # Documentation for TerraGrunt
