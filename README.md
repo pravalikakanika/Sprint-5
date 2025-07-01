@@ -14,17 +14,18 @@
 
 # Table of Contents
 
+- [Introduction](#introduction)
 - [Terragrunt](#terragrunt)
 - [Purpose](#purpose)
 - [Features](#features)
 - [Directory Structure](#directory-structure)
 - [Usage Examples](#usage-examples)
 - [Prerequisites](#prerequisites)
+- [Terragrunt vs. Terraform: A Comparison](#terragrunt-vs-terraform-a-comparison)
 - [Best Practices](#best-practices)
 - [Conclusion](#conclusion)
 - [Contact Information](#contact-information)
 - [References](#references)
-
 
 
 # Introduction
