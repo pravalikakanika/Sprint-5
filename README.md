@@ -14,6 +14,7 @@
 
 # Table of Contents
 
+- [Terragrunt](#terragrunt)
 - [Purpose](#purpose)
 - [Features](#features)
 - [Directory Structure](#directory-structure)
