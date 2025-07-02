@@ -42,7 +42,7 @@ Before running this TerraGrunt POC, make sure the following tools are installed 
 | TerraGrunt   | v0.45 or newer     | Wrapper for Terraform modules              |
 | AWS CLI      | Latest             | Configure AWS credentials                  |
 
->  **Note:** You must configure AWS credentials using `aws configure` before running Terraform or TerraGrunt.
+  **Note:** You must configure AWS credentials using `aws configure` before running Terraform or TerraGrunt.
 
 
 
