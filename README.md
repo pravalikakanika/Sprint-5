@@ -48,7 +48,7 @@ Before running this TerraGrunt POC, make sure the following tools are installed 
 
 ## Directory structure
 
-The project follows a specific directory structure to organize Terraform configurations and modules. Below is the directory structure used in this PoC:
+The project follows a specific directory structure to organize Terraform configurations and modules. Below is the directory structure used in this POC:
 
 ```
 terragrun-poc/
