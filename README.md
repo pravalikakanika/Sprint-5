@@ -72,11 +72,13 @@ go version
 
 ![image](https://github.com/user-attachments/assets/561b32f6-5de1-4fbe-8945-1434e41262c5)
 
-## Step 5. create test file
+## Step 5. Create test file
 
 ![image](https://github.com/user-attachments/assets/3b0d8213-370b-423d-92b8-41eb7a1358f1)
 
-## Step 6. test file script
+## Step 6. Test file script
+![image](https://github.com/user-attachments/assets/3192fcde-c374-4891-9a35-a028b7f26a8f)
+
 
 ## Step 7. Run Terratest
 ```
@@ -86,6 +88,8 @@ go get github.com/gruntwork-io/terratest/modules/terraform
 go get github.com/stretchr/testify/assert
 go test -v
 ```
+![image](https://github.com/user-attachments/assets/d2c14379-c608-451b-87ec-07f448248026)
+
 
 # Conclusion
 The purpose of this Proof of Concept was to evaluate Terratest as a tool for automating Infrastructure as Code (IaC) testing. It demonstrated the feasibility and effectiveness of validating Terraform configurations and ensuring infrastructure reliability before deployment.
