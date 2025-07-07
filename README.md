@@ -1,3 +1,7 @@
+
+![Uploading image.png…]()
+
+
 # Database Monitoring Dashboard Design
 
 |**Author**        | **created on**       | **Version** |**Last edited on**| **Review Level**   | **Reviewer**      |
