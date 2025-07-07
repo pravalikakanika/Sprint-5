@@ -1,5 +1,6 @@
 
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/ec29a1ae-a83e-45f1-bc30-4f75d626c5e5)
+
 
 
 # Database Monitoring Dashboard Design
