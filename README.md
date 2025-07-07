@@ -2,12 +2,27 @@
 
 |**Author**        | **created on**       | **Version** |**Last edited on**| **Review Level**   | **Reviewer**      |
 |---------------|------------|---------|--------|--------|----------------------|
-| Pravalika Kanikarapu  | Jun 18  | v1.0|   Jun 19  | Pre-Reviewer   | Priyanshu            |
+| Pravalika Kanikarapu  | Jul 08  | v1.0|   Jul 08  | Pre-Reviewer   | Priyanshu            |
 | Pravalika Kanikarapu  |  |  |   | L0             | Priyanka     |
 | Pravalika Kanikarapu  |      |      |         | L1             | Rishabh Sharma       |
 | Pravalika Kanikarapu  |      |      |         | L2             | Piyush Upadhyay      |
 
 
+# Table of Contents
+
+- [Introduction](#introduction)  
+- [Objectives](#objectives)  
+- [Flow of Designing](#flow-of-designing)  
+- [Need for Database Monitoring](#need-for-database-monitoring)  
+- [Dashboard Design](#dashboard-design)  
+- [Key Metrics](#key-metrics)  
+- [Design Components](#design-components)  
+- [Steps to Design a Dashboard](#steps-to-design-a-dashboard)  
+- [Panels and Visualizations](#panels-and-visualizations)  
+- [Best Practices](#best-practices)  
+- [Conclusion](#conclusion)  
+- [Contact Information](#contact-information)  
+- [References](#references)  
 
 
 # Introduction
@@ -40,6 +55,10 @@ This documentation will guide you through the process of designing an effective 
 - Early detection of anomalies (e.g., slow queries, connection issues)
 
 - Compliance and security (e.g., tracking failed logins)
+
+# Dashboard design
+![image](https://github.com/user-attachments/assets/797579a1-0829-4079-83cf-3982dd37e12e)
+
 
 # Key Metrics
 
@@ -115,7 +134,8 @@ This documentation will guide you through the process of designing an effective 
    - Set up regular maintenance and updates.
    - Continuously monitor and optimize performance.
   
-  # Panels and Visualizations
+
+ # Panels and Visualizations
 - DB Uptime & Health: Status Indicator, Time Series
 
 - Query Performance: Heatmaps, Line Graphs
@@ -126,7 +146,7 @@ This documentation will guide you through the process of designing an effective 
 
 - Disk Usage & IOPS: Bar Charts
 
-## Best Practices
+# Best Practices
 
 1. **Simplicity**: Keep the dashboard clean and simple, focusing on the most critical metrics.
 2. **Clarity**: Use clear labels, legends, and descriptions for all widgets.
@@ -150,10 +170,9 @@ A well-crafted database monitoring dashboard is essential for ensuring the optim
 
 
 # References 
-|links | 
-|-------|
-|https://www.motadata.com/database-monitoring/|
-|https://medium.com/expedia-group-tech/creating-monitoring-dashboards-1f3fbe0ae1ac|
+|links               |  **Description**                                      |
+|--------------------------------------------------------------------------|------------------------------------------------------|
+|[DB monitoring](https://www.motadata.com/database-monitoring/)|Documentation followed from this link
 
 
 
