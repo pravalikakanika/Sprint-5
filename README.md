@@ -27,8 +27,9 @@
 - [Incident Management](#incident-management)
 - [Review and Update](#review-and-update)
 - [Conclusion](#conclusion)
-- [References](#references)
 - [Contact Information](#contact-information)
+- [References](#references)
+
 
 
 ## Introduction
@@ -145,14 +146,14 @@ Each alerting rule includes the condition to trigger an alert, the severity of t
 - Verify backup scripts and configuration.
 
 
-##  Notification Channels
+#  Notification Channels
 
 - **Email:** Alerts are sent to the DBA team email list .
 - **Slack:** Alerts are posted in the #db-alerts channel.
 - **PagerDuty:** Critical alerts trigger PagerDuty notifications to on-call DBAs.
 - **SMS:** High-severity alerts are also sent via SMS to on-call personnel.
 
-##  Escalation Process
+#  Escalation Process
 
 **First Level Response:**
 - **On-Call DBA:** Receives the alert and investigates within 15 minutes.
@@ -201,17 +202,12 @@ To implement alert monitoring for databases using a tool like Prometheus with Al
 | Pravalika  | kanikarapu.pravalika.snaatak@mygurukulam.co|
 
 
-
-
-
 #  Reference
 
 | **Link**                                                                 | **Description**                                      |
 |--------------------------------------------------------------------------|------------------------------------------------------|
 | [AlertManager](https://medium.com/devops-dudes/prometheus-alerting-with-alertmanager-e1bbba8e6a8e)| Alert manager|
-| [Metrics Monitoring and Alerting System Design](https://medium.com/@guptagoutam2021/how-to-design-a-metrics-monitoring-and-alerting-system-87c02e990dd1)|Metrics Monitoring and Alerting System Design
-
-|
+| [Metrics Monitoring and Alerting System Design](https://medium.com/@guptagoutam2021/how-to-design-a-metrics-monitoring-and-alerting-system-87c02e990dd1)|Metrics Monitoring and Alerting System Design|
 
 
 
